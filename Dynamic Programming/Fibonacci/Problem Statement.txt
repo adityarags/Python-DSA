@@ -1,0 +1,15 @@
+Find the nth Fibonacci Series Element.
+
+The Fibonacci Series: 
+Starts with two numbers, 1 and 1
+
+The next element of the series is the sum of the previous two elements.
+For example:
+The third element of the Fibonacci Series is the sum of the Second and First Elements.
+3rd Fibonacci Element = 2nd Fibonacci Element + 1st Fibonacci Element
+3rd Fibonacci Element = 1 + 1
+3rd Fibonacci Element = 2
+
+
+The series goes on like:
+1, 1, 2, 3, 5, 8, 13, 21...
