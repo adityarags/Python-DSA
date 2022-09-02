@@ -1,9 +1,13 @@
-def gridTravel(m, n):
+def gridTravel(m, n, memo = {}):
+    key = (m,n)
+    if key in memo:
+        return memo[key]
     if m == n == 1:
         return 1
     elif m == 0 or n == 0:
         return 0
     else:
-        return gridTravel(m - 1, n) + gridTravel(m , n - 1)
-    
-print(gridTravel(3, 4))
+        memo[key] = gridTravel(m - 1, n, memo) + gridTravel(m , n - 1, memo)
+        return memo[key]    
+print(gridTravel(3, 3))
+print(gridTravel(18,18))
