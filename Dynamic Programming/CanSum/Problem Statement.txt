@@ -1,0 +1,8 @@
+Given a number n and an array of integers a, 
+find if any number integers from array 'a' can be summed up to get the number n.
+
+Function: canSum(n, a) -> Bool
+
+Test Case:
+canSum(7, [2,3,4,5,7]) -> True
+Since the number 7 can be obtained by the sum of 4 and 3 or by the number 7 itself.
