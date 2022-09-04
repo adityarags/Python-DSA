@@ -6,4 +6,4 @@ def gridTravel(m, n):
     else:
         return gridTravel(m - 1, n) + gridTravel(m , n - 1)
     
-print(gridTravel(3, 4))
+# print(gridTravel(3, 4))
